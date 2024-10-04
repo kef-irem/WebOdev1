@@ -1,0 +1,119 @@
+/* Genel Stil */
+body {
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Header ve Navigation Bar Stilleri */
+header {
+  background-color: #660695;
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* 0.1 gölgelendirme */
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.logo h1 {
+  color: white;
+  font-size: 1.8rem;
+  font-weight: 600;
+  margin: 0;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links li {
+  margin-left: 20px;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.2rem;
+  padding: 8px 15px;
+  border-radius: 20px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.nav-links li a:hover {
+  background-color: white;
+  color: #660695;
+}
+
+/* İçerik Stilleri */
+section {
+  padding: 3rem;
+  text-align: center;
+  background-color: white;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05); /* 0.1 gölgelendirme */
+}
+
+#hakkimda img {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  margin-top: 1rem;
+}
+
+/* Video Ortalama */
+.media {
+  text-align: center;
+  margin: 2rem 0;
+}
+
+iframe {
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* 0.1 gölgelendirme */
+}
+
+/* İletişim Bölümü */
+#iletisim ul {
+  list-style: none;
+  padding: 0;
+}
+
+#iletisim li {
+  margin: 10px 0;
+}
+
+#iletisim a {
+  color: #660695;
+  text-decoration: none;
+  font-size: 1.1rem;
+}
+
+#iletisim a:hover {
+  text-decoration: underline;
+}
+
+/* Footer Stilleri */
+footer {
+  background-color: #660695;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+footer p {
+  margin: 0;
+  font-size: 1rem;
+}
